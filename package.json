@@ -1,0 +1,60 @@
+{
+  "name": "obsidian-svelte5-plugin-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A modern Obsidian plugin template using Svelte 5",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --mode development --watch",
+    "build": "vite build --mode production",
+    "check": "svelte-check --tsconfig ./tsconfig.json --ignore src/examples",
+    "format": "biome format --write ./src",
+    "lint": "biome lint --apply-unsafe ./src"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "svelte",
+    "svelte5",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.3.3",
+    "@iconify-json/lucide": "1.2.82",
+    "@sveltejs/vite-plugin-svelte": "4.0.4",
+    "@tsconfig/svelte": "5.0.6",
+    "@types/node": "20.19.27",
+    "@unocss/extractor-arbitrary-variants": "66.5.10",
+    "@unocss/extractor-svelte": "66.5.10",
+    "@unocss/preset-icons": "66.5.10",
+    "@unocss/preset-typography": "66.5.10",
+    "@unocss/preset-wind4": "66.5.10",
+    "@unocss/reset": "66.5.10",
+    "@unocss/transformer-directives": "66.5.10",
+    "@unocss/transformer-variant-group": "66.5.10",
+    "browserslist": "4.28.1",
+    "builtin-modules": "3.3.0",
+    "bun-types": "latest",
+    "lightningcss": "1.30.2",
+    "obsidian": "1.11.0",
+    "svelte": "5.46.0",
+    "svelte-check": "4.3.5",
+    "tslib": "2.8.1",
+    "typescript": "5.9.3",
+    "unocss": "66.5.10",
+    "unocss-preset-animations": "1.3.0",
+    "unocss-preset-autoprefixer": "0.0.9",
+    "unocss-preset-shadcn": "1.0.1",
+    "vite": "5.4.21"
+  },
+  "dependencies": {
+    "bits-ui": "2.14.4",
+    "clsx": "2.1.1",
+    "tailwind-merge": "3.4.0",
+    "tailwind-variants": "3.2.2",
+    "unplugin-unocss-config": "1.0.0"
+  }
+}
